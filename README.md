@@ -71,18 +71,31 @@ Completar CRUDs de todas as entidades nos menus.
 
 Challenge_sprint/
 │
+
 ├─ src/
+
 │  ├─ Domain/           # Entidades
+
 │  ├─ Infrastructure/   # DbContext, UnitOfWork, Repositories
+
 │  ├─ Application/      # Services
+
 │  ├─ Presentation.Console/  # Program.cs
+
 │
 ├─ docs/
+
 │  ├─ diagrams/
+
 │  │   ├─ erd.mmd
+
 │  │   └─ architecture.mmd
+
 │
 ├─ users.json           # exportado pelo programa
+
 ├─ README.md
+
 └─ Challenge_sprint.sln
+
 
