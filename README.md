@@ -1,8 +1,8 @@
-Sprint 3 — Challenge
+# Sprint 3 — Challenge
 
-Plataforma C# — Prevenção e Recuperação de Apostas Compulsivas
+# Plataforma C# — Prevenção e Recuperação de Apostas Compulsivas
 
-Integrantes
+# Integrantes
 
 Juliana Villalpando Maita — 99224
 
@@ -63,3 +63,26 @@ Adicionar WinForms ou Web (Minimal API) usando os Services.
 Criar testes unitários para Services.
 
 Completar CRUDs de todas as entidades nos menus.
+
+
+
+
+# Diagrama
+
+Challenge_sprint/
+│
+├─ src/
+│  ├─ Domain/           # Entidades
+│  ├─ Infrastructure/   # DbContext, UnitOfWork, Repositories
+│  ├─ Application/      # Services
+│  ├─ Presentation.Console/  # Program.cs
+│
+├─ docs/
+│  ├─ diagrams/
+│  │   ├─ erd.mmd
+│  │   └─ architecture.mmd
+│
+├─ users.json           # exportado pelo programa
+├─ README.md
+└─ Challenge_sprint.sln
+
